@@ -17,5 +17,5 @@ public interface MongoClass {
     String getCollection();
     UUID getUUID();
     Document toBson();
-    void fromBson(Document document);
+    MongoClass fromBson(Document document);
 }
